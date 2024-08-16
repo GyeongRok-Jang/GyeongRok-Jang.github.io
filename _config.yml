@@ -16,9 +16,7 @@ timezone:
 
 title: Gyeongrok-Jang # the main title
 
-tagline:  |
-Department of Mechanical Engineering, 
-Pukyong National University # it will display as the sub-title
+tagline: Department of Mechanical Engineering, Pukyong National University # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   blog, Gyeongrok-Jang, github
