@@ -6,17 +6,19 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: ko
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: Gyeongrok-Jang # the main title
 
-tagline: Department of Mechanical Engineering, Pukyong National University # it will display as the sub-title
+tagline: |
+ Department of Mechanical Engineering,
+ Pukyong National University 
 
 description: >- # used by seo meta and the atom feed
   blog, Gyeongrok-Jang, github
@@ -26,15 +28,15 @@ description: >- # used by seo meta and the atom feed
 url: "https://Gyeongrok-Jang.github.io"
 
 github:
-  username: github_username # change to your github username
+  username: Gyeongrok-Jang # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
+#twitter:
+#  username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: Gyeongrok-Jang
   email: jjgr4966@pukyong.ac.kr # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -96,11 +98,12 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/assets/images/profile.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: 
+# string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
